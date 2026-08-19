@@ -1,0 +1,25 @@
+Azure Managed Disk
+        │
+        ▼
+Linux Block Device
+        │
+        ▼
+Partition
+        │
+        ▼
+Physical Volume
+       (PV)
+        │
+        ▼
+Volume Group
+      (VG)
+        │
+     ┌──┴───┐
+     ▼      ▼
+   LV App  LV Logs
+     │      │
+     ▼      ▼
+   ext4    ext4
+     │      │
+     ▼      ▼
+ /data/app /data/logs

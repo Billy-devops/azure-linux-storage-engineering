@@ -1,0 +1,135 @@
+# ==========================================
+# Linux Storage Engineering
+# .gitignore
+# ==========================================
+
+# -------------------------------
+# Linux / OS generated files
+# -------------------------------
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+.Trash-*
+lost+found/
+
+# -------------------------------
+# Windows generated files
+# -------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------------
+# macOS generated files
+# -------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -------------------------------
+# VS Code / IDE
+# -------------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------------
+# Secrets / Credentials
+# -------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+credentials.json
+secrets.json
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+logs/
+*.out
+
+# -------------------------------
+# Temporary / Runtime files
+# -------------------------------
+*.pid
+*.pid.lock
+*.cache
+.cache/
+tmp/
+temp/
+
+# -------------------------------
+# Backup files generated locally
+# -------------------------------
+*.bak
+*.backup
+*.old
+*.orig
+
+# -------------------------------
+# Database / Application dumps
+# -------------------------------
+*.sql.gz
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------------
+# Generated archives
+# -------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# -------------------------------
+# Python (if used for automation)
+# -------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# -------------------------------
+# Node.js (if ever used)
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -------------------------------
+# Terraform / Infrastructure State
+# -------------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# -------------------------------
+# Ansible
+# -------------------------------
+*.retry
+
+# -------------------------------
+# Local generated reports
+# -------------------------------
+reports/
+output/
+generated/
+
+# -------------------------------
+# Local machine files
+# -------------------------------
+*.local
+local/
