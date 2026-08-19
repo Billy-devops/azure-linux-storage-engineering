@@ -1,0 +1,34 @@
+                              AZURE
+                                │
+                    ┌───────────┴───────────┐
+                    │                       │
+                    ▼                       ▼
+                 OS Disk              Managed Data Disk
+                    │                       │
+                    ▼                       ▼
+                 Linux VM              Block Device
+                                            │
+                                            ▼
+                                       Partition
+                                            │
+                                            ▼
+                                         LVM/ext4
+                                            │
+                              ┌─────────────┼─────────────┐
+                              │             │             │
+                              ▼             ▼             ▼
+                           Nginx          MySQL          Logs
+                              │             │             │
+                              └─────────────┼─────────────┘
+                                            ▼
+                                      Monitoring
+                                            │
+                               ┌────────────┴────────────┐
+                               ▼                         ▼
+                           Backup                     Alerts
+                               │
+                               ▼
+                            Restore
+                               │
+                               ▼
+                           Recovery
