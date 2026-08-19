@@ -1,0 +1,26 @@
+Azure Subscription
+        │
+        ▼
+Resource Group
+        │
+        ▼
+Azure Linux VM
+        │
+        ├──────────────► OS Disk
+        │
+        └──────────────► Managed Data Disk
+                              │
+                              ▼
+                         Linux Block Device
+                              │
+                              ▼
+                           Partition
+                              │
+                              ▼
+                          Filesystem
+                              │
+                              ▼
+                         Mountpoint
+                              │
+                              ▼
+                     Application / Database
